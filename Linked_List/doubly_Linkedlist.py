@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self, data=None, next=None, prev=None):
+    def __init__(self, data=None, next=None, prev=None): # note: prev is added for doubly linked list
         self.data = data
         self.next = next
         self.prev = prev
